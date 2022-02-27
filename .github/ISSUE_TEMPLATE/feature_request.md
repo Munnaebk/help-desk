@@ -4,28 +4,43 @@ about: Suggest an idea for this project
 title: ''
 labels: ''
 assignees: ''
-
 ---
+
 <!--
+  PLEASE SEARCH BEFORE CREATING A NEW ISSUE.
+
   Please use the following issue template to provide information about your
   feature request.
 
   INCOMPLETE FEATURE REQUESTS WILL BE IGNORED.
 -->
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always
-frustrated when [...]
+### Is your feature request related to a problem? Please describe.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+<!--
+  Please provide a clear and concise description of what the problem is,
+  e.g. I'm always frustrated when ...
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+  Type below this arrow -->
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've
-considered.
+### Describe the solution you'd like
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+<!--
+  Please provide a clear and concise description of what you want to happen.
+
+  Type below this arrow -->
+
+### Screenshots
+
+<!--
+  If applicable, add screenshots to help explain your problem.
+
+  Type below this arrow -->
+
+### Describe alternatives you've considered
+
+<!--
+  Please provide a clear and concise description of any alternative solutions
+  or features you've considered.
+
+  Type below this arrow -->

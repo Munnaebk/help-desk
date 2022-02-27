@@ -4,9 +4,11 @@ about: Create a report to help us improve
 title: ''
 labels: ''
 assignees: ''
-
 ---
+
 <!--
+  PLEASE SEARCH BEFORE CREATING A NEW ISSUE.
+
   Please use the following issue template to provide information about the bug
   you are experiencing. The more information you provide, the faster your issue
   can be resolved.
@@ -14,36 +16,51 @@ assignees: ''
   INCOMPLETE BUG REPORTS WILL BE IGNORED.
 -->
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+### Describe the bug
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+<!--
+  Please provide a clear and concise description of what the bug you are
+  experiencing. Add any other context about the problem too.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+  Type below this arrow -->
 
-**Twitch channel**
-https://twitch.tv/username
+### To Reproduce
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-[e.g. Builder, Extension Configuration Screen, etc.]
+<!--
+  Please provide steps to reproduce the bug, e.g.:
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+  1. Go to '...'
+  2. Click on '....'
+  3. Scroll down to '....'
+  4. See error
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+  Type below this arrow -->
 
-**Additional context**
-Add any other context about the problem here.
+### Expected behavior
+
+<!--
+  Please provide a clear and concise description of what you expected to
+  happen.
+
+  Type below this arrow -->
+
+### Twitch channel
+
+<!--
+  e.g. https://twitch.tv/username
+
+  Type below this arrow -->
+
+### Screenshots
+
+<!--
+  If applicable, add screenshots to help explain your problem.
+  [e.g. Builder, Extension Configuration Screen, etc.]
+
+  Type below this arrow -->
+
+### Device (PC, mobile, etc.):
+
+- Device: <!-- e.g. PC, Galaxy S22, iPhone 13 -->
+- OS: <!-- e.g. Windows 11, macOS 12, Android 12, iOS 15  -->
+- Browser: <!-- e.g. Chrome, Safari -->
