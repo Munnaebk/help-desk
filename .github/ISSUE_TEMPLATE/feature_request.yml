@@ -29,7 +29,7 @@ body:
   - type: textarea
     attributes:
       label: Suggest A Solution
-      description: A concise description of your preferred solution..
+      description: A concise description of your preferred solution.
     validations:
       required: false
 
