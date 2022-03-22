@@ -1,66 +1,93 @@
----
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
----
+description: File a bug/issue to help us improve
+title: '<title>'
+labels: []
+assignees: []
 
-<!--
-  PLEASE SEARCH BEFORE CREATING A NEW ISSUE.
+body:
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: I have searched the existing issues
+          required: true
 
-  Please use the following issue template to provide information about the bug
-  you are experiencing. The more information you provide, the faster your issue
-  can be resolved.
+  - type: input
+    attributes:
+      label: Twitch username
+    validations:
+      required: true
 
-  INCOMPLETE BUG REPORTS WILL BE IGNORED.
--->
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A concise description of what you expected to happen.
+    validations:
+      required: true
 
-### Describe the bug
+  - type: textarea
+    attributes:
+      label: Current Behavior
+      description: A concise description of what you're experiencing.
+    validations:
+      required: true
 
-<!--
-  Please provide a clear and concise description of what the bug you are
-  experiencing. Add any other context about the problem too.
+  - type: textarea
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
 
-  Type below this arrow -->
+  - type: dropdown
+    attributes:
+      label: Device
+      multiple: true
+      options:
+        - PC
+        - Mobile
+        - Other
+    validations:
+      required: true
 
-### To Reproduce
+  - type: dropdown
+    attributes:
+      label: Operating system
+      multiple: true
+      options:
+        - Windows
+        - macOS
+        - Android
+        - iOS
+        - Linux
+        - Other
+    validations:
+      required: true
 
-<!--
-  Please provide steps to reproduce the bug, e.g.:
+  - type: dropdown
+    attributes:
+      label: Browser
+      multiple: true
+      options:
+        - Chrome
+        - Safari
+        - Firefox
+        - Other
+    validations:
+      required: false
 
-  1. Go to '...'
-  2. Click on '....'
-  3. Scroll down to '....'
-  4. See error
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the issue you are encountering!
 
-  Type below this arrow -->
-
-### Expected behavior
-
-<!--
-  Please provide a clear and concise description of what you expected to
-  happen.
-
-  Type below this arrow -->
-
-### Twitch channel
-
-<!--
-  e.g. https://twitch.tv/username
-
-  Type below this arrow -->
-
-### Screenshots
-
-<!--
-  If applicable, add screenshots to help explain your problem.
-  [e.g. Builder, Extension Configuration Screen, etc.]
-
-  Type below this arrow -->
-
-### Device (PC, mobile, etc.):
-
-- Device: <!-- e.g. PC, Galaxy S22, iPhone 13 -->
-- OS: <!-- e.g. Windows 11, macOS 12, Android 12, iOS 15  -->
-- Browser: <!-- e.g. Chrome, Safari -->
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
