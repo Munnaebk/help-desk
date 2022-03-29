@@ -72,8 +72,8 @@ body:
     attributes:
       label: Are you using the [Twitch Extension](https://dashboard.twitch.tv/extensions/tdldrg6rlw5eewiwcpxo3dv0obyckc)? 
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
 
