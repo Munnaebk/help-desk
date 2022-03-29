@@ -47,10 +47,10 @@ body:
 
   - type: dropdown
     attributes:
-      label: Device
-      multiple: true
+      label: I am streaming from 
       options:
-        - PC
+        - PC/OBS
+        - Console
         - Mobile
         - Other
     validations:
@@ -58,21 +58,28 @@ body:
 
   - type: dropdown
     attributes:
-      label: Operating system
-      multiple: true
+      label: I am viewing from 
       options:
-        - Windows
-        - macOS
-        - Android
-        - iOS
-        - Linux
+        - PC/macOS/Linux web browser
+        - Android web browser
+        - iOS web browser
+        - Twitch Mobile App
         - Other
+    validations:
+      required: true
+      
+  - type: dropdown
+    attributes:
+      label: Are you using the [Twitch Extension](https://dashboard.twitch.tv/extensions/tdldrg6rlw5eewiwcpxo3dv0obyckc)? 
+      options:
+        - Yes
+        - No
     validations:
       required: true
 
   - type: dropdown
     attributes:
-      label: Browser
+      label: Web browser
       multiple: true
       options:
         - Chrome
