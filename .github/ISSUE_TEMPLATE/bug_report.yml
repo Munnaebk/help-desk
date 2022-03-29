@@ -70,7 +70,8 @@ body:
       
   - type: dropdown
     attributes:
-      label: Are you using the [Twitch Extension](https://dashboard.twitch.tv/extensions/tdldrg6rlw5eewiwcpxo3dv0obyckc)? 
+      label: Are you using the Twitch Extension?
+      description: More information about the Twitch Extension can be found [here](https://overlay.expert/consoles).
       options:
         - 'Yes'
         - 'No'
