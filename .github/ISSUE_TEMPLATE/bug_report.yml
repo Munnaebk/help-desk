@@ -86,6 +86,7 @@ body:
         - Chrome
         - Safari
         - Firefox
+        - Edge
         - Other
     validations:
       required: false
